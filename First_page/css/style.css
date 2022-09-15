@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+}
+header {
+  position: fixed;
+  background: #ffff;
+  height: 72px;
+  width: 100%;
+  z-index: 1;
+}
+header > .container {
+  height: 100%;
+}
+header > .container > .row {
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0;
+}
+.button {
+  height: 40px;
+  width: 78px;
+  margin-right: 16px;
+}
+.btn {
+  background-color: #ffff;
+  border: 0.5px solid #e0e0e0;
+  color: #1d1d1d;
+  padding: 14px 20px;
+  font-size: 13px;
+  font-weight: 750;
+  transition-duration: 0.5s;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #e0e0e0;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.input {
+  margin-top: 128px;
+  width: 98%;
+  border-style: none;
+  border-bottom-style: solid;
+  border-color: #c7c7c7;
+  background-color: #f2f2f2;
+  color: #c7c7c7;
+}
+.input:focus {
+  outline: none;
+  color: black;
+}
+.restaurants {
+  margin-block-start: 0;
+  margin-top: 56px;
+  font-size: 22px;
+  color: #1d1d1d;
+}
+.food {
+  width: 100%;
+  height: auto;
+}
+.name {
+  font-size: 16px;
+  color: #1d1d1d;
+}
+.price {
+  color: #626262;
+  font-size: 14px;
+}
+.time {
+  font-size: 13px;
+  color: #1d1d1d;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+  padding-bottom: 36px;
+}
+li {
+  padding-top: 4px;
+  list-style-type: none;
+}
+footer {
+  background: #262626;
+  margin-top: 64px;
+  padding-top: 56px;
+  color: #ffff;
+}
+.logo-white {
+  padding-bottom: 40px;
+}
+hr {
+  opacity: 0.4;
+}
+.hystmodal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.4);
+  display: none;
+  z-index: 1;
+}
+.hystmodal__close {
+  float: right;
+  cursor: pointer;
+  margin-top: 18px;
+}
+.hystmodal__window {
+  width: 600px;
+  max-width: 100%;
+  background-color: #fff;
+  margin: auto;
+  margin-top: auto;
+}
+.hystmodal__container {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.modal-nav {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.modal-nav > h4,
+.modal-nav > div {
+  margin-right: 10px;
+}
+.nav-button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+.nav-button:hover {
+  color: red;
+  text-decoration: underline;
+}
+.modal-login {
+  display: flex;
+  margin-bottom: 30px;
+}
+input {
+  outline: none;
+}
+.email {
+  display: flex;
+  width: 30%;
+  margin-right: 10px;
+  flex-direction: column;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  display: none;
+}
+label {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.password {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.modal-button {
+  cursor: pointer;
+  margin-bottom: 40px;
+  padding: 5px 25px;
+  background-color: rgb(1, 177, 1);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-weight: 600;
+}
+label > a {
+  color: blueviolet;
+}
+.check {
+  margin-bottom: 15px;
+  display: none;
+}
+
+.footer_content {
+  padding-top: 32px;
+}
+select {
+  background: #3b3b3b;
+  border-style: none;
+  color: #ffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+}
+.world {
+  padding: 12px 16px 12px 16px;
+}
+.lang {
+  background: #3b3b3b;
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.social {
+  padding-top: 33px;
+  font-size: 16px;
+}
+.heshteg {
+  color: rgb(3, 154, 3);
+}
+.social > .row {
+  padding-top: 17px;
+}
+.social > .row > a {
+  padding-left: 12px;
+}
+.footer_text > p > a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 13px;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.app > a > img {
+  padding-left: 40px;
+}
+.footer_foot {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 11px;
+}
+a {
+  color: #ffff;
+  text-decoration: none;
+}
+.food {
+  transition: 0.5s;
+}
+.food:hover {
+  transform: scale(0.95);
+}
+@media screen and (max-width: 575px) {
+  .img {
+    display: none;
+  }
+}

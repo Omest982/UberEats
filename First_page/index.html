@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Uber Eats</title>
+  </head>
+
+  <body>
+   <?php
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="logo">
+            <img src="img/logo.png" alt="Uber Eats" />
+          </div>
+          <div class="menu">
+            <button class="btn">Войти</button>
+            <a href="#" class="img"
+              ><img src="img/basket.png" alt="basket"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <input
+        placeholder="Поиск по ресторанам и кухням"
+        type="text"
+        class="input"
+      />
+      <p class="restaurants">Рестораны в Москве</p>
+
+      <div class="row">
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <img src="img/first_photo.png" alt="" class="food" />
+          <ul>
+            <li class="name">Макдоналдс — Газетный</li>
+            <li class="price">₽₽ • Бургеры</li>
+            <li class="time">25 - 35 мин</li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <img src="img/second.png" alt="" class="food" />
+          <ul>
+            <li class="name">DimSum & Co — ЦДМ</li>
+            <li class="price">₽ • Японская • Китайская • Азиатская</li>
+            <li class="time">40 - 50 мин</li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <img src="img/third.png" alt="" class="food" />
+          <ul>
+            <li class="name">ДвижОК — Манежная</li>
+            <li class="price">₽ • Американская • Европейская</li>
+            <li class="time">35 - 45 мин</li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <img src="img/fourth.png" alt="" class="food" />
+          <ul>
+            <li class="name">НЯ — NHA</li>
+            <li class="price">₽₽ • Вьетнамская</li>
+            <li class="time">30 - 40 мин</li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <img src="img/fifth.png" alt="" class="food" />
+          <ul>
+            <li class="name">Точка Дзы — Цветной</li>
+            <li class="price">₽₽ • Вьетнамская</li>
+            <li class="time">40 - 50 мин</li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <img src="img/sixth.png" alt="" class="food" />
+          <ul>
+            <li class="name">Cinnabon</li>
+            <li class="price">₽ • Выпечка • Десерты • Капкейки</li>
+            <li class="time">25 - 35 мин</li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <img src="img/seventh.png" alt="" class="food" />
+          <ul>
+            <li class="name">PIZZELOVE</li>
+            <li class="price">₽₽ • Пицца</li>
+            <li class="time">15 - 25 мин</li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <img src="img/eighth.png" alt="" class="food" />
+          <ul>
+            <li class="name">Zю кафе — Тверская</li>
+            <li class="price">₽₽ • Японская</li>
+            <li class="time">25 - 35 мин</li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <img src="img/nineth.png" alt="" class="food" />
+          <ul>
+            <li class="name">Bar BQ Cafe — Манежная</li>
+            <li class="price">₽₽₽ • Европейская</li>
+            <li class="time">30 - 40 мин</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="hystmodal">
+      <div class="hystmodal__window">
+        <div class="hystmodal__container">
+          <button class="hystmodal__close">Close</button>
+          <div class="modal-content">
+            <div class="modal-nav">
+              <h4 id="nav-text">Вход</h4>
+              <div>/</div>
+              <button class="nav-button">Регистрация</button>
+            </div>
+            <div class="modal-login">
+              <div class="email">
+                <label for="">Email:</label>
+                <input type="text" />
+              </div>
+              <div class="login">
+                <label for="">Username</label>
+                <input type="text" />
+              </div>
+              <div class="password">
+                <label for="">Password:</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="check">
+              <input type="checkbox" id="check" />
+              <label id="check__text"
+                >Я прочитал и согласен с
+                <a href="">пользовательским соглашением</a> и
+                <a href="">политикой кофиденциальности</a></label
+              >
+            </div>
+            <button class="modal-button">Войти</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="logo-white">
+          <img src="img/white-logo.png" alt="Uber Eats" />
+        </div>
+        <hr />
+        <div class="footer_content">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="lang col-md-8 col-xs-7">
+                <img src="img/world.png" alt="" class="world" />
+                <select name="" id="language">
+                  <option value="russian" selected>Русский</option>
+                  <option value="english">English</option>
+                </select>
+              </div>
+              <div class="social">
+                <span class="heshteg">#</span>
+                <span>UberEats</span>
+                <div class="row">
+                  <a href="#"><img src="img/facebook.png" alt="" /></a>
+                  <a href="#"><img src="img/twitter.png" alt="" /></a>
+                  <a href="#"><img src="img/instagram.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="footer_text">
+                <p><a href="">Об UberEats</a></p>
+                <p><a href="">Станьте партнёром по доставке</a></p>
+                <p><a href="">Станьте парнёром-рестораном</a></p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="footer_text">
+                <p><a href="">Все города</a></p>
+                <p><a href="">Цены</a></p>
+                <p><a href="">Помощь</a></p>
+                <p><a href="">FAQs</a></p>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="app">
+            <a href=""><img src="img/Apple.png" alt="" /></a>
+            <a href=""><img src="img/Google.png" alt="" /></a>
+          </div>
+
+          <hr />
+          <div class="footer_foot">
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <p><a href="">© 2017 Uber Technologies Inc.</a></p>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <p><a href="">Обработка персональных данных</a></p>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <p><a href="">Пользовательское соглашение</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
